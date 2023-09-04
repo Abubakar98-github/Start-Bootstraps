@@ -1,0 +1,147 @@
+@font-face {
+     font-family: "MerriweatherSans";
+     src: url(../Fonts/MerriweatherSans-Bold.ttf);
+}
+
+@font-face {
+     font-family: "MerriweatherSans";
+     src: url(../Fonts/MerriweatherSans-Regular.ttf);
+}
+
+@font-face {
+     font-family: "MerriweatherSans";
+     src: url(../Fonts/MerriweatherSans-SemiBold.ttf);
+}
+
+h1,h2,h3,h4,h5,h6{
+     font-family: "MerriweatherSans";
+     font-style: bold;
+}
+
+p{
+     font-family: "MerriweatherSans";
+     font-style: regular;
+}
+
+.nav-link{
+     font-family: "MerriweatherSans";
+     font-style: semibold;
+}
+
+.head{
+     /* background-image: url(../images/bg-masthead.jpg); */
+     background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%),url(../images/bg-masthead.jpg);
+     background-position: center;
+     background-size: cover;
+     /* padding-top: 100px; */
+     padding-bottom: 100px;
+}
+
+nav a{
+     text-transform: uppercase;
+}
+
+li a{
+    /* margin-left: 20px;  */
+    /* padding: 0px !important; */
+    font-size: 1.1rem !important;
+    /* padding-top: 10px; */
+    font-weight: bold;
+}
+
+ul li a:hover{
+     color: #fff !important;
+}
+
+nav .navbar-brand:hover{
+     color: #fff !important;
+}
+.head h2{
+     font-size: 3rem !important;
+     padding-top: 75px !important;
+}
+
+/* .head h1{
+     border-bottom: solid #fff 2px;
+     
+} */
+
+.head .btn-primary{
+     background-color: #f4623a;
+     padding: 1.25rem 2.25rem;
+     border: none;
+     border-radius: 10rem;
+     font-size: 0.9rem;
+     font-weight: bold;
+}
+
+.head .btn-primary:hover{
+     background-color: #fff;
+     color: black !important;
+}
+
+.services{
+     background-color: #f4623a;
+     padding-top: 100px;
+     padding-bottom: 100px;
+}
+
+.services .btn-primary{
+     background-color: #fff !important;
+     padding: 1.25rem 2.25rem;
+     border-radius: 10rem;
+     border: none;
+     font-size: 0.9rem;
+     font-weight: bold;
+}
+
+.services .btn-primary:hover{
+     background-color: #fa572a !important;
+     color: #fff !important;
+}
+
+.skills{
+     padding-top: 100px;
+     padding-bottom: 100px;
+}
+
+.portfolio{
+     background-color: #212529;
+     /* padding-top: 100px; */
+     padding-bottom: 100px;
+}
+
+.portfolio .btn-primary{
+     background-color: #fff !important;
+     padding: 1.25rem 2.25rem;
+     border-radius: 10rem;
+     border: none;
+     font-size: 0.9rem;
+     font-weight: bold;
+}
+
+.portfolio .btn-primary:hover{
+     background-color: #212529!important;
+     color: #fff !important;
+     border: solid #fff 1px;
+}
+
+.contact{
+     background-color: #fff;
+     padding-top: 100px;
+     padding-bottom: 100px;
+}
+
+.contact .btn-primary{
+     background-color: #f4623a;
+     padding: 1rem;
+     border: none;
+     border-radius: 10rem;
+     font-size: 1rem;
+     font-weight: bold;
+}
+
+.contact .btn-primary:hover{
+     background-color: #fa572a !important;
+     color: b#ffffff !important;
+}

@@ -90,7 +90,7 @@ nav .navbar-brand:hover{
      background-color: #fff !important;
      padding: 1.25rem 2.25rem;
      border-radius: 10rem;
-     border: none;
+     border: 1px solid #fff;
      font-size: 0.9rem;
      font-weight: bold;
 }
